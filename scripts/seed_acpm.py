@@ -95,7 +95,7 @@ async def main():
     
     gemini_client = GeminiClient(
         api_key=os.environ["GEMINI_API_KEY"],
-        model_name=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+        model=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
     )
     
     repo = GraphRepository(neo4j_client)
