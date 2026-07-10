@@ -5,6 +5,5 @@ __pycache__/
 *.py[cod]
 venv/
 
-!data/raw/README.md
 /data
 .streamlit/
